@@ -29,6 +29,8 @@ public:
   */
   MatrixXd CalculateJacobian(const VectorXd& x_state);
 
+  double WrapToPi(float phi);
+
 };
 
 #endif /* TOOLS_H_ */
